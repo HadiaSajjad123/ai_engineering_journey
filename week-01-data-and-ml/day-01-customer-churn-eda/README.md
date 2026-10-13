@@ -48,11 +48,119 @@ Check the dataset's original provenance and applicable license or terms before r
 
 ## Findings
 
-- Dataset dimensions: [Fill in actual result]
-- Duplicate records: [Fill in actual result]
-- Columns with missing values: [Fill in actual result]
-- Observed churn rate: [Fill in actual result]
-- Highest-churn contract segment: [Fill in actual result]
+- Dataset dimensions: Shape: (7043, 21)
+- Duplicate records: Duplicate rows: 0
+- Columns with missing values: <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>missing_values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>customerID</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>gender</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>SeniorCitizen</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Partner</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Dependents</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>tenure</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>PhoneService</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>MultipleLines</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>InternetService</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>OnlineSecurity</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>OnlineBackup</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>DeviceProtection</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>TechSupport</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>StreamingTV</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>StreamingMovies</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Contract</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>PaperlessBilling</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>PaymentMethod</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>MonthlyCharges</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>TotalCharges</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Churn</th>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+- Observed churn rate: 26.54%
+- Highest-churn contract segment: month-month
 
 ## Limitations
 
