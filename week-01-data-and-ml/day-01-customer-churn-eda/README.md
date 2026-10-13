@@ -50,20 +50,8 @@ Check the dataset's original provenance and applicable license or terms before r
 
 - Dataset dimensions: Shape: (7043, 21)
 - Duplicate records: Duplicate rows: 0
-- Columns with missing values: <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
+- Columns with missing values:
+  
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -159,7 +147,9 @@ Check the dataset's original provenance and applicable license or terms before r
   </tbody>
 </table>
 </div>
+
 - Observed churn rate: 26.54%
+
 - Highest-churn contract segment: month-month
 
 ## Limitations
