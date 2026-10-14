@@ -50,9 +50,7 @@ Check the dataset's original provenance and applicable license or terms before r
 
 - Dataset dimensions: Shape: (7043, 21)
 - Duplicate records: Duplicate rows: 0
-- Columns with missing values:
-  No pandas-recognized null values were detected initially. A separate check identified 11 blank strings in TotalCharges
-
+- Columns with missing values: No pandas-recognized null values were detected initially; a separate check identified 11 blank strings in `TotalCharges`.
 - Observed churn rate: 26.54%
 
 - Highest-churn contract segment: Month-month
