@@ -1,0 +1,9 @@
+
+# Python environment and cache
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Local datasets and generated data
+data/*.xls
+data/*.csv
